@@ -133,6 +133,7 @@ class StockMutationController extends Controller
                     'required',
                     'integer',
                     $type === StockMutation::TYPE_ADJUSTMENT ? 'min:0' : 'min:1',
+                    'max:1000000',
                 ],
                 'notes' => ['nullable', 'string', 'max:1000'],
             ],
@@ -146,6 +147,7 @@ class StockMutationController extends Controller
                 'quantity.min' => $type === StockMutation::TYPE_ADJUSTMENT
                     ? 'Nilai stok fisik penyesuaian tidak boleh bernilai negatif (minimal 0).'
                     : 'Kuantitas mutasi masuk/keluar minimal adalah 1.',
+                'quantity.max' => 'Kuantitas transaksi melebihi batas maksimum yang diizinkan (1.000.000 unit).',
             ]
         );
 

@@ -5,7 +5,7 @@
 ![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS-4.x-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Vite 7](https://img.shields.io/badge/Vite-7.x-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Tests](https://img.shields.io/badge/Tests-13%20Passed%20(65%20Assertions)-10B981?style=flat-square)
+![Tests](https://img.shields.io/badge/Tests-18%20Passed%20(129%20Assertions)-10B981?style=flat-square)
 
 ## Ringkasan Eksekutif (Executive Summary)
 
